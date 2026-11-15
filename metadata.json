@@ -1,0 +1,6 @@
+{
+  "name": "PlasticWatch",
+  "description": "AI and GIS-based plastic waste monitoring and hotspot identification prototype for AJIET Mangalore and nearby communities.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
