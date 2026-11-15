@@ -298,7 +298,7 @@ ${contextNote}`;
   } else {
     const distPath = path.resolve(__dirname, "dist");
     app.use(express.static(distPath));
-    app.get("/{*splat}", (_req, res) => {
+    app.get("*", (_req, res) => {
       const indexHtml = path.join(distPath, "index.html");
       if (fs.existsSync(indexHtml)) {
         res.sendFile(indexHtml);
